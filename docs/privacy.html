@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Email Secretary</title>
+<style>
+  :root { --bg: #fafaf8; --fg: #1d1d1b; --muted: #6b6b66; --accent: #1e407c; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151514; --fg: #ecebe6; --muted: #a09f99; --accent: #8fb0ea; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px; }
+  h1 { margin-bottom: 4px; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Email Secretary · Last updated November 5, 2026</p>
+
+  <p>Email Secretary is a personal project that runs on its author's own computer and is used only with the author's own Gmail account.</p>
+
+  <h2>What data it accesses</h2>
+  <p>With permission granted through Google sign-in, the app reads the sender, subject and text of recent inbox emails. It adds Gmail labels to those emails and creates reply drafts. It does not send, move or delete email.</p>
+
+  <h2>How data is used</h2>
+  <p>Email text is sent to the Anthropic API (Claude) only to decide each email's category and to write reply drafts. Results are written back to the same Gmail account as labels and drafts, and a local log is kept on the author's computer.</p>
+
+  <h2>Sharing and storage</h2>
+  <p>No email data is sold, shared or stored on any server run by this project. Apart from the Anthropic API call described above, data stays in Gmail and on the author's computer. Google sign-in tokens are stored only on that computer.</p>
+
+  <h2>Google API data</h2>
+  <p>Use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+
+  <h2>Removing access</h2>
+  <p>Access can be revoked at any time from <a href="https://myaccount.google.com/permissions">Google Account → Third-party connections</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Questions: open an issue at <a href="https://github.com/jcruz891/email-secretary/issues">github.com/jcruz891/email-secretary</a>.</p>
+
+  <p><a href="index.html">← Back</a></p>
+</main>
+</body>
+</html>

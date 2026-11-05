@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Email Secretary</title>
+<style>
+  :root { --bg: #fafaf8; --fg: #1d1d1b; --muted: #6b6b66; --accent: #1e407c; --card: #fff; --line: #e6e4de; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151514; --fg: #ecebe6; --muted: #a09f99; --accent: #8fb0ea; --card: #1e1e1c; --line: #2e2e2b; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px; }
+  h1 { font-size: 2.2rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 32px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin-bottom: 16px; }
+  code { background: var(--line); padding: 1px 6px; border-radius: 4px; font-size: .9em; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 40px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>📬 Email Secretary</h1>
+  <p class="sub">A personal AI agent that organizes my Gmail every morning. Built with LangChain and LangGraph as a student learning project.</p>
+
+  <div class="card">
+    <h3>What it does</h3>
+    <ul>
+      <li>Reads new emails in my inbox</li>
+      <li>Sorts each one into a category and adds a <code>Secretary/…</code> label</li>
+      <li>Flags likely spam and phishing</li>
+      <li>Writes reply drafts for emails that need an answer and saves them to Gmail Drafts. It never sends anything.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Who can use it</h3>
+    <p>This is a personal tool. It runs on my own computer and is only used with my own Gmail account. It is not offered as a service to other people.</p>
+  </div>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a> · <a href="https://github.com/jcruz891/email-secretary">Source code</a>
+  </footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,7 @@
+langgraph
+langchain
+langchain-anthropic
+python-dotenv
+# Only needed for --gmail:
+google-api-python-client
+google-auth-oauthlib
