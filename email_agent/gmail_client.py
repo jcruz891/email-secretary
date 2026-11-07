@@ -19,7 +19,7 @@ from functools import lru_cache
 from .state import Email
 
 SCOPES = ["https://www.googleapis.com/auth/gmail.modify"]
-LABEL_PREFIX = "Secretary"  # every label the agent makes lives under "Secretary/" in the Gmail sidebar
+LABEL_PREFIX = "Secretary Maurice"  # must match the folder name in Gmail exactly; every label lives under "Secretary Maurice/" in the Gmail sidebar
 
 
 @lru_cache

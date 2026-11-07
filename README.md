@@ -39,7 +39,7 @@ START → classify ─┬─ spam  ─┐
 ## Using your real email
 
 - **Gmail**: follow the steps at the top of `gmail_client.py`, then run `python main.py --gmail -n 5`.
-  Each email gets a label under **Secretary/** in Gmail's sidebar (e.g. `Secretary/W Deals %`, `Secretary/Spam`), and
+  Each email gets a label under **Secretary Maurice/** in Gmail's sidebar (e.g. `Secretary Maurice/W Deals %`, `Secretary Maurice/Spam`), and
   replies are saved to **Drafts**. Nothing is sent, moved or deleted. Already-labeled emails are
   skipped on the next run. Add `--dry-run` to just print results.
 - **Penn State (Outlook / Microsoft 365)**: needs the Microsoft Graph API and an Azure app
